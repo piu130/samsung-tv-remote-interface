@@ -49,7 +49,12 @@ client
   })
 ```
 
+## Special thanks
+
+To the guy who made [this][special-thanks-url] website.
+
 [dependencies-image]: https://david-dm.org/piu130/samsung-tv-remote-interface/status.svg
 [dependencies-url]: https://david-dm.org/Piu130/samsung-tv-remote-interface
 [devDependencies-image]: https://david-dm.org/piu130/samsung-tv-remote-interface/dev-status.svg
 [devDependencies-url]: https://david-dm.org/piu130/samsung-tv-remote-interface?type=dev
+[special-thanks-url]: http://sc0ty.pl/2012/02/samsung-tv-network-remote-control-protocol/

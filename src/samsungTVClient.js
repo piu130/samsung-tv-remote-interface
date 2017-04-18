@@ -115,7 +115,7 @@ class SamsungTVClient {
 
   /**
    * Send a key wrapped in TVs standard message
-   * @param {Buffer} key Key to send
+   * @param {string} key Key to send
    * @param {number} delay Delay to send message
    * @return {Promise<boolean>} Resolve on send, never rejected
    * @public

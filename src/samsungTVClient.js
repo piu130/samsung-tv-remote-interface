@@ -28,7 +28,7 @@ class SamsungTVClient {
    * @param {number} delay Default delay to send messages to TV
    * @public
    */
-  constructor (delay = 1000) {
+  constructor (delay = 0) {
     this.socket = new net.Socket()
     this.delay = delay
   }

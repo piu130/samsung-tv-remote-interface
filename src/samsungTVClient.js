@@ -114,6 +114,17 @@ class SamsungTVClient {
   }
 
   /**
+   * Send a key wrapped in TVs standard message
+   * @param {Buffer} key Key to send
+   * @param {number} delay Delay to send message
+   * @return {Promise<boolean>} Resolve on send, never rejected
+   * @public
+   */
+  sendMessageByKey (key, delay = this.delay) {
+    return this.sendMessageByPayload(SamsungTVClient.createKeyPayload(key), delay)
+  }
+
+  /**
    * Create a message to send to tv with the given payload.
    * @param {Buffer} payload Payload to add to send to TV
    * @return {Buffer} Message with given payload

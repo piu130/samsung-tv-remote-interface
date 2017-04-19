@@ -4,7 +4,6 @@
   "description": "",
   "main": "src/samsungTVClient.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src"
   },
   "repository": "piu130/samsung-tv-remote-interface",

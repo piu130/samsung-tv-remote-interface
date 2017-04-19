@@ -6,9 +6,16 @@
   "scripts": {
     "lint": "eslint src"
   },
-  "repository": "piu130/samsung-tv-remote-interface",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piu130/samsung-tv-remote-interface.git"
+  },
   "author": "Ramon Boss",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piu130/samsung-tv-remote-interface/issues"
+  },
+  "homepage": "https://github.com/piu130/samsung-tv-remote-interface#readme",
   "dependencies": {
     "samsung-tv-remote-interface-keys": "^0.1.0"
   },

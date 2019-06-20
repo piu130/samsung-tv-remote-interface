@@ -2,29 +2,18 @@
   "name": "samsung-tv-remote-interface",
   "version": "0.2.1",
   "description": "",
-  "main": "src/samsungTVClient.js",
+  "main": "index.js",
   "scripts": {
-    "lint": "eslint src"
+    "lint": "standard",
+    "lint:fix": "standard --fix"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/piu130/samsung-tv-remote-interface.git"
-  },
+  "repository": "piu130/samsung-tv-remote-interface",
   "author": "Ramon Boss",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/piu130/samsung-tv-remote-interface/issues"
-  },
-  "homepage": "https://github.com/piu130/samsung-tv-remote-interface#readme",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
-    "samsung-tv-remote-interface-keys": "^0.1.0"
+    "samsung-tv-remote-interface-keys": "^1.0.1"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-node": "^4.2.2",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "standard": "*"
   }
 }

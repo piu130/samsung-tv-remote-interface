@@ -16,10 +16,10 @@ class SamsungTVClient {
    */
   static get accessResponse () {
     return {
-      granted: Buffer.from([0x64, 0x00, 0x01, 0x00]),           // access granted, you can now send key codes and it will be executed by TV
-      denied: Buffer.from([0x64, 0x00, 0x00, 0x00]),            // access denied – user rejected your network remote controller
+      granted: Buffer.from([0x64, 0x00, 0x01, 0x00]), // access granted, you can now send key codes and it will be executed by TV
+      denied: Buffer.from([0x64, 0x00, 0x00, 0x00]), // access denied – user rejected your network remote controller
       await: Buffer.from([0x0A, 0x00, 0x02, 0x00, 0x00, 0x00]), // waiting for user to grant or deny access for your app
-      timeout: Buffer.from([0x65, 0x00])                        // timeout or cancelled by user
+      timeout: Buffer.from([0x65, 0x00]) // timeout or cancelled by user
     }
   }
 

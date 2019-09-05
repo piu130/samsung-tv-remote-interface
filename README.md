@@ -11,6 +11,12 @@
 npm install --save samsung-tv-remote-interface
 ```
 
+Optional (keys to send to the TV):
+
+```bash
+npm install --save samsung-tv-remote-interface-keys
+```
+
 ## Quickstart
 
 Build a new client

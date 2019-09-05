@@ -5,6 +5,8 @@
 [![dependencies Status][dependencies-image]][dependencies-url]
 [![devDependencies Status][devDependencies-image]][devDependencies-url]
 
+This module can communicate with old Samsung TVs over the network.
+
 ## Installation
 
 ```bash
@@ -19,20 +21,20 @@ npm install --save samsung-tv-remote-interface-keys
 
 ## Quickstart
 
-Build a new client
+Build a new client:
 
 ```js
 const SamsungTVClient = require('samsung-tv-remote-interface')
 const client = new SamsungTVClient()
 ```
 
-Import keys
+Import keys (if installed):
 
 ```js
 const keys = require('samsung-tv-remote-interface-keys')
 ```
 
-Use client
+Use client:
 
 ```js
 client
@@ -46,7 +48,7 @@ client
   .then(() => client.sendMessageByKey(keys.KEY_VOLUP))
 ```
 
-Catch errors
+Catch errors:
 
 ```js
 client
